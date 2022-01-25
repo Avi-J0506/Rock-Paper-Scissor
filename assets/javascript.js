@@ -33,8 +33,8 @@ const game = ()=>{
 
                setTimeout(()=>{
                 compareHands(this.textContent, computerChoice);
-                playerHand.src =`./assets/images/${this.textContent}.png`
-                computerHand.src =`./assets/images/${computerChoice}.png`
+                playerHand.src =`./images/${this.textContent}.png`
+                computerHand.src =`./images/${computerChoice}.png`
                },2000)
 
                 playerHand.style.animation = "shakePlayer 2s ease";
